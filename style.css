@@ -141,3 +141,40 @@ body {
 .site-footer a:hover {
   color: #666666;
 }
+.msg.user {
+  background-color: #f0f0f0;
+  color: #000;
+  padding: 10px 14px;
+  border-radius: 16px 16px 0 16px;
+  max-width: 70%;
+  align-self: flex-end;
+  margin-bottom: 10px;
+}
+
+.msg.ai {
+  background-color: #fff4e6;
+  color: #333;
+  padding: 10px 14px;
+  border-radius: 16px 16px 16px 0;
+  max-width: 70%;
+  align-self: flex-start;
+  margin-bottom: 10px;
+}
+
+.latest-question {
+  font-style: italic;
+  font-size: 14px;
+  margin: 10px 0;
+  color: #444;
+}
+
+/* Update chat window to flex column */
+.chat-window {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.site-logo {
+  width: 180px;
+  margin-bottom: 10px;
+}
